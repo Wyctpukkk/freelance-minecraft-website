@@ -15,86 +15,88 @@
   </head>
   <body>
     <header>
+      <button class="header__menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
       <nav class="navigation">
         <button class="navigation__button"><a href="#">Главная</a></button>
         <button class="navigation__button"><a href="#">VK</a></button>
         <button class="navigation__button"><a href="#">Поддержка</a></button>
       </nav>
     </header>
-    <main>
-      <section class="background">
-        <div class="background__position">
-          <h2 class="background__title">SvobodaWorld</h2>
-          <button class="background__adress" value="mc.svobodaworld.ru">
-            ip: mc.svobodaworld.ru
-          </button>
-          <div class="nav nav-pills">
-            Текущий онлайн:
-            <span
-              data-playercounter-ip="mc.svobodaworld.ru"
-              data-playercounter-format="<strong>{online}</strong> / <strong>{max}</strong>"
-            ></span>
-          </div>
+    <section class="background">
+      <div class="background__position">
+        <h2 class="background__title">SvobodaWorld</h2>
+        <button class="background__adress" value="mc.svobodaworld.ru">
+          ip: mc.svobodaworld.ru
+        </button>
+        <div class="nav nav-pills">
+          Текущий онлайн:
+          <span
+            data-playercounter-ip="mc.svobodaworld.ru"
+            data-playercounter-format="<strong>{online}</strong> / <strong>{max}</strong>"
+          ></span>
         </div>
-      </section>
-      <section class="card">
-        <ul class="card__list">
-          <li class="card__item">
-            <img src="" alt="card image" class="card__img" />
-            <p class="card__name">Название товара</p>
-            <button class="card__button">Купить</button>
-          </li>
-          <li class="card__item">
-            <img src="" alt="card image" class="card__img" />
-            <p class="card__name">Название товара</p>
-            <button class="card__button">Купить</button>
-          </li>
-          <li class="card__item">
-            <img src="" alt="card image" class="card__img" />
-            <p class="card__name">Название товара</p>
-            <button class="card__button">Купить</button>
-          </li>
-          <li class="card__item">
-            <img src="" alt="card image" class="card__img" />
-            <p class="card__name">Название товара</p>
-            <button class="card__button">Купить</button>
-          </li>
-          <li class="card__item">
-            <img src="" alt="card image" class="card__img" />
-            <p class="card__name">Название товара</p>
-            <button class="card__button">Купить</button>
-          </li>
-          <li class="card__item">
-            <img src="" alt="card image" class="card__img" />
-            <p class="card__name">Название товара</p>
-            <button class="card__button">Купить</button>
-          </li>
-        </ul>
-      </section>
-      <div class="popup">
-        <p class="popup__name">Покупка товара</p>
-        <input class="popup__input" placeholder="ваш ник:" />
-        <input class="popup__input" placeholder="ваша почта:" />
-        <button class="popup__button">Перейти к оплате</button>
       </div>
-      <section class="instruction">
-        <h2>1. Выбор товара</h2>
-        <p>
-          Добавьте необходимые товары в корзину и заполните предлагаемую форму.
-        </p>
-        <h2>2. Способ оплаты</h2>
-        <p>
-          Выберите предпочитаеммый способ оплаты и следуйте дальнейшим
-          инструкциям.
-        </p>
-        <h2>3. Активация привилегии</h2>
-        <p>
-          Товар выдается после оплаты в автоматическом режиме и моментально.
-        </p>
-      </section>
-      <footer class="footer"><p>SvobodaWorld</p></footer>
-    </main>
+    </section>
+    <section class="card">
+      <ul class="card__list">
+        <li class="card__item">
+          <img src="" alt="card image" class="card__img" />
+          <p class="card__name">Название товара</p>
+          <button class="card__button">Купить</button>
+        </li>
+        <li class="card__item">
+          <img src="" alt="card image" class="card__img" />
+          <p class="card__name">Название товара</p>
+          <button class="card__button">Купить</button>
+        </li>
+        <li class="card__item">
+          <img src="" alt="card image" class="card__img" />
+          <p class="card__name">Название товара</p>
+          <button class="card__button">Купить</button>
+        </li>
+        <li class="card__item">
+          <img src="" alt="card image" class="card__img" />
+          <p class="card__name">Название товара</p>
+          <button class="card__button">Купить</button>
+        </li>
+        <li class="card__item">
+          <img src="" alt="card image" class="card__img" />
+          <p class="card__name">Название товара</p>
+          <button class="card__button">Купить</button>
+        </li>
+        <li class="card__item">
+          <img src="" alt="card image" class="card__img" />
+          <p class="card__name">Название товара</p>
+          <button class="card__button">Купить</button>
+        </li>
+      </ul>
+    </section>
+    <div class="popup">
+      <p class="popup__name">Покупка товара</p>
+      <input class="popup__input" placeholder="ваш ник:" />
+      <input class="popup__input" placeholder="ваша почта:" />
+      <button class="popup__button">Перейти к оплате</button>
+    </div>
+    <section class="instruction">
+      <h2>1. Выбор товара</h2>
+      <p>
+        Добавьте необходимые товары в корзину и заполните предлагаемую форму.
+      </p>
+      <h2>2. Способ оплаты</h2>
+      <p>
+        Выберите предпочитаеммый способ оплаты и следуйте дальнейшим
+        инструкциям.
+      </p>
+      <h2>3. Активация привилегии</h2>
+      <p>Товар выдается после оплаты в автоматическом режиме и моментально.</p>
+    </section>
+    <footer class="footer"><p>SvobodaWorld</p></footer>
   </body>
   <script src="/copy.js"></script>
   <script src="/popup.js"></script>
+  <script src="/burgermenu.js"></script>
 </html>
