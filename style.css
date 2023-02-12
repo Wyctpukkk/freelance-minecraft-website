@@ -341,7 +341,7 @@ body.active {
 }
 @media (max-width: 470px) {
   .instruction {
-    margin: 157px 70px 70px 30px;
+    margin: 157px 15px 30px 15px;
     transition: 1s;
   }
   .instruction h2 {
