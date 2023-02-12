@@ -98,12 +98,6 @@ body.active {
   height: 100%;
   background: center no-repeat url(img/minecraft.svg);
   background-size: cover;
-  div {
-    img {
-      height: 100%;
-      object-fit: none;
-    }
-  }
   &__position {
     position: absolute;
     left: 50%;
